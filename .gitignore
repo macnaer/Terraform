@@ -1,2 +1,3 @@
-/01. ec2/.terraform/plugins/windows_amd64
-/02. vpc/.terraform
+/aws-terraform/01. ec2/terraform.tfstate
+/aws-terraform/02. vpc/terraform.tfstate.backup
+/gcp-terraform/terraform.tfstate.backup
