@@ -1,3 +1,8 @@
 /ec2/.terraform
 /ec2/terraform.tfstate.backup
 /ec2/.terraform.lock.hcl
+/alb/.terraform
+/alb/.terraform.lock.hcl
+/alb/.terraform.tfstate.lock.info
+/alb/terraform.tfstate
+/alb/terraform.tfstate.backup
