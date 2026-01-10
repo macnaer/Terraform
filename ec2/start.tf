@@ -28,8 +28,8 @@ resource "aws_instance" "EC2-Instance" {
     Name = "EC2-Instance"
   }
 
-  // User data script
-  user_data = file("files/install_jenkins.sh")
+  # // User data script
+  # user_data = file("files/install_jenkins.sh")
 }
 
 

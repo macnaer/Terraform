@@ -1,13 +1,3 @@
-variable "aws_access_key" {
-  type    = string
-  default = ""
-}
-
-variable "aws_secret_key" {
-  type    = string
-  default = ""
-}
-
 variable "regios" {
   type    = string
   default = "eu-north-1"
@@ -19,9 +9,8 @@ variable "a-zone" {
 }
 
 variable "ami-id" {
-  type = string
-  # default = "ami-0fa91bc90632c73c9"
-  default = "ami-06298ef462a343ed1"
+  type    = string
+  default = "ami-0fa91bc90632c73c9"
 }
 
 variable "instance_type" {
@@ -32,4 +21,8 @@ variable "instance_type" {
 variable "key_name" {
   type    = string
   default = "Stockholm_2"
+}
+
+variable "alb_sg_id" {
+  type = string
 }
