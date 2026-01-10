@@ -5,6 +5,7 @@ resource "aws_instance" "EC2-Instance" {
   instance_type          = var.instance_type
   key_name               = var.key_name
   vpc_security_group_ids = [var.alb_sg_id]
+  count                  = 2
 
   // Create main disk
   ebs_block_device {
