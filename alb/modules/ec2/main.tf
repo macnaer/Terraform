@@ -16,6 +16,10 @@ resource "aws_instance" "EC2-Instance" {
     }
   }
 
+  metadata_options {
+    http_endpoint = "enabled"
+  }
+
   user_data = file("${path.module}/files/install-webserver.sh")
   // Tags
   tags = {
