@@ -23,6 +23,25 @@ variable "key_name" {
   default = "Stockholm_2"
 }
 
+variable "vpc_id" {
+  type = string
+}
+
+variable "public_subnet_ids" {
+  description = "Public subnet IDs for Auto Scaling Group"
+  type        = list(string)
+}
+
 variable "alb_sg_id" {
   type = string
+}
+
+variable "private_subnet_ids" {
+  description = "Private subnet IDs for Auto Scaling Group"
+  type        = list(string)
+}
+
+variable "ami_id" {
+  type    = string
+  default = "ami-0fa91bc90632c73c9"
 }
