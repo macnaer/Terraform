@@ -6,3 +6,7 @@
 /alb/.terraform.tfstate.lock.info
 /alb/terraform.tfstate
 /alb/terraform.tfstate.backup
+/route53/.terraform
+/route53/.terraform.lock.hcl
+/route53/terraform.tfstate
+/route53/terraform.tfstate.backup
